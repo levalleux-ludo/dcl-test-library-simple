@@ -1,6 +1,6 @@
 import * as ui from '@dcl/ui-scene-utils'
 
-ui.displayAnnouncement('Ouch!', 5, true, Color4.Red(), 50, true)
+ui.displayAnnouncement('Ouch!', 5, Color4.Red(), 100, false)
 
 /// --- Spawn a cube ---
 const cube = new Entity()
