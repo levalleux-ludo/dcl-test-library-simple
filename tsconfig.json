@@ -2,8 +2,13 @@
   "compilerOptions": {
     "outFile": "./bin/game.js",
     "allowJs": true,
-    "strict": true
+    "strict": true,
+    "moduleResolution": "node"
   },
   "include": ["src/**/*.ts"],
+  "files": [
+    "./node_modules/@dcl/ui-scene-utils/dist/index.js",
+    "./node_modules/llx-test-library-2/dist/index.js"
+  ],
   "extends": "./node_modules/decentraland-ecs/types/tsconfig.json"
 }
