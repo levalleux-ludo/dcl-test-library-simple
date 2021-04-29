@@ -8,6 +8,9 @@
   "include": ["src/**/*.ts"],
   "files": [
     "./node_modules/@dcl/ui-scene-utils/dist/index.js",
+    "./node_modules/@dcl/crypto-scene-utils/dist/index.js",
+    "./node_modules/@dcl/ecs-scene-utils/dist/index.js",
+    "./node_modules/eth-connect/eth-connect.js",
     "./node_modules/llx-test-library-2/dist/index.js"
   ],
   "extends": "./node_modules/decentraland-ecs/types/tsconfig.json"

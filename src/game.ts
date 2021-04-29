@@ -1,7 +1,12 @@
 import * as ui from '@dcl/ui-scene-utils';
+import * as crypto from '@dcl/crypto-scene-utils';
+
 import { UICommit } from 'llx-test-library-2';
 
-ui.displayAnnouncement('Ouch!', 5, Color4.Red(), 100, false)
+ui.displayAnnouncement(crypto.contract.mainnet.MANAToken, 5, Color4.Red(), 100, false)
+ui.displayAnnouncement('Hello', 5, Color4.Red(), 100, false)
+
+
 
 /// --- Spawn a cube ---
 const cube = new Entity()
@@ -22,7 +27,7 @@ const uicommit = new UICommit(
       height: 380
     },
     title: "Rubik's Cube",
-    id: '8'
+    id: '151'
   }
 );
 
